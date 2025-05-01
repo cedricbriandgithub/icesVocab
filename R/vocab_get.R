@@ -25,7 +25,6 @@
 #' @export
 #'
 #' @importFrom icesConnect ices_get
-#' @importFrom httr content
 vocab_get <- function(url, retry = TRUE, quiet = !getOption("icesVocab.messages"), verbose = FALSE, content = TRUE) {
   ices_get(url, retry, quiet, verbose, content, use_token = FALSE)
 }

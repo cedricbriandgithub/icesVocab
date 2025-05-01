@@ -12,8 +12,8 @@
 #' vocab_api("hi", bye = 21)
 #' vocab_api("CodeType")
 #'
+#' @importFrom httr parse_url build_url
 #' @export
-#' @importFrom httr parse_url build_url GET
 vocab_api <- function(service, ...) {
   url <- paste0(api_url(), "/", service)
   url <- parse_url(url)

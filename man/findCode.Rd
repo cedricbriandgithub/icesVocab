@@ -7,7 +7,7 @@
 findCode(code_type, code, regex = TRUE, full = FALSE)
 }
 \arguments{
-\item{code_type}{a search string for a code type, e.g. SpecWorms, or simply worms.}
+\item{code_type}{a search string for a code type, e.g. SpecWoRMS, or simply worms.}
 
 \item{code}{a search string for a code, e.g. a species name, cod, or ship name, Clupea.}
 
